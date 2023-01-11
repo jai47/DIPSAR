@@ -212,7 +212,7 @@ body{
 
 
 /* ------------------------- FOOTER ----------------------------------------- */
-/* 
+
 footer{
     position: sticky;
     top: 100%;
@@ -231,6 +231,7 @@ footer .logo a{
 
 footer .logo{
     margin-left: 20px;
+    margin-right: 50px;
     display: flex;
     width: 170px;
     height: 100%;
@@ -248,6 +249,7 @@ footer .logo a:hover span{
 }
 
 footer .contact{
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -255,11 +257,11 @@ footer .contact{
     width: 370px;
     line-height: 1.8em;
     text-align: center;
-} */
+}
 
 
-.footer-widget-area {
-    background: rgb(202, 133, 221) none repeat scroll 0 0;
+/* .footer-widget-area {
+    background: rgb(202, 133, 221) none repeat scroll 0 0 !important;
     color: #000000;
     padding: 80px 0 65px;
-}
+} */
