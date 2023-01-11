@@ -114,12 +114,15 @@ body{
 
 .info div p{
     margin-top: 10vh;
+    text-align: center;
 }
 
 
 
 .main{
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -210,16 +213,53 @@ body{
 
 /* ------------------------- FOOTER ----------------------------------------- */
 
-/* footer{
+footer{
     position: sticky;
     top: 100%;
-    height: 200px;
+    height: 250px;
     background: rgb(202, 133, 221);
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo a{    
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+footer .logo{
+    margin-left: 20px;
+    display: flex;
+    width: 170px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .logo a span{
+    font-weight: 600;
+}
+
+footer .logo a:hover span{
+    color: rgb(0, 17, 255);
+}
+
+footer .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    line-height: 1.8em;
+    text-align: center;
+}
 
 
-.footer-widget-area {
-    background: #2d3e50 none repeat scroll 0 0;
+/* .footer-widget-area {
+    background: rgb(202, 133, 221) none repeat scroll 0 0;
     color: #ffffff;
     padding: 80px 0 65px;
-}
+} */
